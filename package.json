@@ -2,7 +2,7 @@
   "name": "updtr",
   "version": "3.1.0",
   "description": "Update outdated npm modules with zero pain™",
-  "main": "dist",
+  "main": "src/index.js",
   "scripts": {
     "pretest": "npm run fixtures:ensure",
     "test": "cross-env FORCE_COLOR=1 jest --coverage",
